@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>What to read today</title>
+
+	<!-- some old browsers use ASCII for character encoding. while most 
+	modern browsers use this, it is here for good practice -->
+	<meta charset="utf-8">
+
+	<!-- Force latest available IE rendering engine and Chrome Frame (if installed) -->
+	<!-- Without this IE will show the site how it thinks best it should be shown -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<!-- Mobile Screen Resizing -->
+	<!-- The (width=device-width) part sets the width of the page to follow the screen-width of the device  -->
+	<!-- Initial scale sets the initial zoom level when the page is first loaded by the browser -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="base.css">
+</head>
+<body>
+	<h1>What to read today</h1>
+
+	<div id="app"></div>
+
+	<footer>
+		<!-- Older browsers won't necessarily accept all APIs. If not, just use a polyfill -->
+		<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+
+		<!-- Invoke the API -->
+		<script src="get_nytapi.js"></script>
+	</footer>
+</body>
+</html>
