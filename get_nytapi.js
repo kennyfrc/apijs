@@ -4,8 +4,10 @@
 // Variables
 //
 
+// Note that it's not best practice to put API_KEYS on the client side.
+// It needs to be stored on the client side.
 var app = document.querySelector('#app');
-var apiKey = '658cf0e4f41d48a29fd424f03ea549e8';
+var apiKey = "80m18vYle2vU77hSb3RDnKRfA3lM44PZ";
 var sections = ['technology', 'science', 'magazine'];
 var articleCount = 3;
 
